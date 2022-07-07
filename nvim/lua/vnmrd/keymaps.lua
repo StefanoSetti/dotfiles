@@ -1,3 +1,3 @@
--- This files contains custom keymaps defined by the ures.
+-- This files contains custom keymaps defined by the user.
 
 -- TODO: Better window navigation.
