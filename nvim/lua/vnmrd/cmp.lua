@@ -127,6 +127,9 @@ cmp.setup {
     behavior = cmp.ConfirmBehavior.Replace,
     select = false,
   },
+  window = {
+    documentation = cmp.config.window.bordered(),
+  },
   documentation = {
     border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
   },
