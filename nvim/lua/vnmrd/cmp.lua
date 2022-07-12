@@ -10,7 +10,6 @@ if not snip_status_ok then
   return
 end
 
--- TODO: Check why, it should make everithing works fine.
 require("luasnip/loaders/from_vscode").lazy_load()
 
 -- Snippet that makes super tab works.
@@ -118,7 +117,6 @@ cmp.setup {
   -- Note: order matters.
   sources = {
     { name = "nvim_lsp"},
-    { name = "nvim_lua"},
     { name = "luasnip" },
     { name = "buffer" },
     { name = "path" },
